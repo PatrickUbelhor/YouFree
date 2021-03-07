@@ -1,4 +1,4 @@
-import '../css/DailySchedule.css'
+import 'css/DailySchedule.css'
 import React from 'react';
 import {
 	Tooltip,

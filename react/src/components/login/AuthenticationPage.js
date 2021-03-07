@@ -1,4 +1,4 @@
-import '../../css/login/Authentication.css';
+import 'css/login/Authentication.css'
 import React from 'react';
 import CreateUserForm from './CreateUserForm';
 import LoginForm from './LoginForm';
@@ -11,7 +11,7 @@ import { connect } from 'react-redux';
 import {
 	createUser,
 	login
-} from '../../state/Effects';
+} from 'state/Effects';
 
 
 function mapDispatchToProps(dispatch) {

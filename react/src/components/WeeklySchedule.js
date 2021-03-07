@@ -1,9 +1,9 @@
-import '../css/WeeklySchedule.css';
+import 'css/WeeklySchedule.css';
 import React from 'react';
 import {
 	Typography
 } from '@material-ui/core';
-import { dayOfWeek } from '../constants/DayOfWeek'
+import { dayOfWeek } from 'constants/DayOfWeek'
 import DailySchedule from './DailySchedule';
 import Markers from './common/Markers';
 

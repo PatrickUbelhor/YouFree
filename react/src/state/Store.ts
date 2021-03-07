@@ -11,6 +11,12 @@ const INITIAL_STATE: AppState = {
 	token: null,
 	self: null,
 	theme: 'light',
+	preferences: {
+		theme: 'light',
+		timezone: 'americas/chicago',
+		language: 'en-us',
+		timeFormat: '12hr'
+	},
 	mySchedule: null,
 	friendSchedules: null,
 	friends: EntityCalculator.initEntityState<User>(),

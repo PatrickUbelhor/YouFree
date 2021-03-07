@@ -4,6 +4,7 @@ export interface AppState {
 	token: string;
 	self: User;
 	theme: string;
+	preferences: Preferences;
 	errorMessage: string | object;
 	mySchedule: any;
 	friendSchedules: any;
@@ -11,6 +12,13 @@ export interface AppState {
 	pendingRequests: EntityState<any>;
 	searchResults: EntityState<any>;
 	notifications: EntityState<FriendRequestNotification>;
+}
+
+export interface Preferences {
+	theme: string;
+	language: string;
+	timezone: string;
+	timeFormat: string;
 }
 
 export interface EntityState<T> {

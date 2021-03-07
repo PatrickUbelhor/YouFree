@@ -1,4 +1,4 @@
-import '../css/Dashboard.css';
+import 'css/Dashboard.css';
 import React from 'react';
 import DailySchedule from './DailySchedule';
 import {
@@ -8,14 +8,14 @@ import {
 	IconButton,
 	Typography
 } from '@material-ui/core';
-import { dayOfWeek } from '../constants/DayOfWeek';
+import { dayOfWeek } from 'constants/DayOfWeek';
 import Markers from './common/Markers';
 import { connect } from 'react-redux';
 import {
 	addInterval,
 	fetchMySchedule,
 	getFriendSchedules
-} from '../state/Effects';
+} from 'state/Effects';
 
 
 function select(state) {

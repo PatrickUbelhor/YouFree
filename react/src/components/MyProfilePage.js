@@ -1,4 +1,4 @@
-import '../css/MyProfilePage.css';
+import 'css/MyProfilePage.css';
 import React from 'react';
 import {
 	Button,
@@ -24,7 +24,7 @@ import {
 	deleteInterval,
 	fetchMySchedule,
 	updateInterval
-} from '../state/Effects';
+} from 'state/Effects';
 import { connect } from 'react-redux';
 
 

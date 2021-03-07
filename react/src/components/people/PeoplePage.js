@@ -1,4 +1,4 @@
-import '../../css/people/People.css';
+import 'css/people/People.css';
 import React from 'react';
 import {
 	Card,
@@ -18,7 +18,7 @@ import {
 	getFriends,
 	getPendingRequests,
 	searchUsers
-} from '../../state/Effects';
+} from 'state/Effects';
 
 
 function select(state) {

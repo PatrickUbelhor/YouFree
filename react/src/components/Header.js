@@ -1,4 +1,4 @@
-import '../css/Header.css';
+import 'css/Header.css';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
@@ -16,7 +16,7 @@ import {
 import {
 	logout,
 	setTheme
-} from '../state/Effects';
+} from 'state/Effects';
 import { connect } from 'react-redux';
 
 
